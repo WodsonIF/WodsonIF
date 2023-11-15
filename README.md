@@ -5,21 +5,7 @@
 - 📫 How to reach me ...
 
 
-$ git remote add origin https://github.com/OWNER/REPOSITORY.git
-# Set a new remote
 
-$ git remote -v
-# Verify new remote
-> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
-> origin  https://github.com/OWNER/REPOSITORY.git (push)
-
-
-
-git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
-	[--no-verify] [-s <estratégia>] [-X <opção-da-estratégia>] [-S[<keyid>]]
-	[--[no-]allow-unrelated-histories]
-	[--[no-]rerere-autoupdate] [-m <msg>] [-F <arquivo>] [<commit>…​]
-git merge (--continue | --abort | --quit)
 
 
 <!---
