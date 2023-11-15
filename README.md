@@ -15,6 +15,11 @@ $ git remote -v
 
 
 
+git merge [-n] [--stat] [--no-commit] [--squash] [--[no-]edit]
+	[--no-verify] [-s <estratégia>] [-X <opção-da-estratégia>] [-S[<keyid>]]
+	[--[no-]allow-unrelated-histories]
+	[--[no-]rerere-autoupdate] [-m <msg>] [-F <arquivo>] [<commit>…​]
+git merge (--continue | --abort | --quit)
 
 
 <!---
