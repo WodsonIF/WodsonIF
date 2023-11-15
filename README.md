@@ -659,7 +659,7 @@ public String getCarcharias taurus, fêm...() {
 		}
 	}
 	
-	public void removeAnimal (Animal exAnimal) {
+	public void  tipoAnimal (Animal exAnimal) {
 		if (!listaAnimal.contains(exAnimal))
 			return;
 		else {
@@ -669,7 +669,89 @@ public String getCarcharias taurus, fêm...() {
 	}
 
 
+public class  terrestre extends Animal {
+	//Metodos
 
+Felis catus, fêmeas;
+
+public void vivem terrestextends (todos!)
+
+
+
+	{
+		System.out.println("10");
+	}
+	
+		System.out.println(" 7");
+	}
+}
+
+public class  terrestextends Animal {
+	//Metodos
+
+ 7 Fêmeas ;
+
+public void vivem águas (todos!)
+
+
+
+	{
+		System.out.println("10");
+	}
+	
+		System.out.println(" 7");
+	}
+}
+
+public String Hydrochoerus hydrochaeris, ma, fêm...() {
+		return animal;
+	}
+
+	public void Hydrochoerus hydrochaeri, (String cpf) {
+		this. nome = animal;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void anilmatipo(String animaltipo) {
+		this.telefone = animal tipo;
+	} 
+	
+	public void addAnimal(Animal tipoAnimal) {
+		if (listaAnimal.contains(tipoAnimal)) 
+			return;
+		else {
+			listaAnimal.add(tipoAnimal); 
+			tipoAnimal.setCli(this);  
+		}
+	}
+	
+	public void  tipoAnimal (Animal exAnimal) {
+		if (!listaAnimal.contains(exAnimal))
+			return;
+		else {
+			listaAnimal. list(exAnimal);
+			exAnimal.setCli(trum);
+		}
+	}
 
  
 <!---
