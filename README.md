@@ -405,6 +405,7 @@ public class principal ()
 		this.especie = especie;
 		this.raca = raca;
 	}
+
 	
 	public String getNomeA() {
 		return nome;
@@ -579,13 +580,98 @@ public class  terr extends Animal {
 
 public void listarAnimais() { for(int i =0; i<jaula.length; i++) { System.out.println(jaula[i].getClass().getSimpleName()); } }
 
-Ou, melhor ainda:
 
-public void listarAnimais() { for(Animal animal : jaula) { System.out.println(animal.getClass().getSimpleName()); } }
-
+public void listarAnimais() { for(Animal animal : jaula) { System.out.println(animal.getClass().getSimpleName()); } 
 
 
+public class  aquáticoextends Animal {
+	//Metodos
 
+Carcharias tauru;
+
+public void vivem águas (todos!)
+
+
+
+	{
+		System.out.println("10");
+	}
+	
+		System.out.println(" 7");
+	}
+}
+
+public class  aquáticoextends Animal {
+	//Metodos
+
+ 7 Fêmeas ;
+
+public void vivem águas (todos!)
+
+
+
+	{
+		System.out.println("10");
+	}
+	
+		System.out.println(" 7");
+	}
+}
+
+public String getCarcharias taurus, fêm...() {
+		return animal;
+	}
+
+	public void setgetCarcharias taurus, (String cpf) {
+		this. nome = animal;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getEndereco() {
+		return endereco;
+	}
+
+	public void setEndereco(String endereco) {
+		this.endereco = endereco;
+	}
+
+	public String getTelefone() {
+		return telefone;
+	}
+
+	public void anilmatipo(String animaltipo) {
+		this.telefone = animal tipo;
+	} 
+	
+	public void addAnimal(Animal tipoAnimal) {
+		if (listaAnimal.contains(tipoAnimal)) 
+			return;
+		else {
+			listaAnimal.add(tipoAnimal); 
+			tipoAnimal.setCli(this);  
+		}
+	}
+	
+	public void removeAnimal (Animal exAnimal) {
+		if (!listaAnimal.contains(exAnimal))
+			return;
+		else {
+			listaAnimal. list(exAnimal);
+			exAnimal.setCli(null);
+		}
+	}
+
+
+
+
+ 
 <!---
 ReinoAnimal/Reino is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
