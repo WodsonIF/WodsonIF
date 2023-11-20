@@ -6,11 +6,11 @@
 
 
 
-Código da Classe Animal
+Código da Classe ReinoAnimal
 
 package dominino;
 
-public class Animal {
+public class ReinoAnimal {
 	private String nome,anoNascimento, sexo, especie, raca;
 	private Cliente cli;
 	
