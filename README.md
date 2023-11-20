@@ -14,16 +14,16 @@ public class ReinoAnimal {
 	private String nome,anoNascimento, sexo, especie, raca;
 	private Cliente cli;
 	
-	public Animal(String nome, String anoNascimento, String sexo, String especie, String raca) {
-		this.nome = nome;
-		this.anoNascimento = anoNascimento;
-		this.sexo = sexo;
-		this.especie = especie;
-		this.raca = raca;
+	public Animal(String espécie, String comer, String perfil, String especie, String raca) {
+	  	
+	 	this.especie = especie;
+	 	this.perfil = perfil;
+    this. datanacimento = datanacimento;
+    this. sexo = sexo ;
 	}
 	
-	public String getNomeA() {
-		return nome;
+	public String getnomeA() {
+		return ;
 	}
 	
 	public void setNome(String nome) {
@@ -73,15 +73,15 @@ public class ReinoAnimal {
 
 
 public class Animal {
-	private String nome,anoNascimento, sexo, especie, raca;
-	private Cliente cli;
+	private String nome,anoNascimento, sexo, especie, 
+
 	
 	public Animal(String nome, String anoNascimento, String sexo, String especie, String raca) {
 		this.nome = nome;
 		this.anoNascimento = anoNascimento;
 		this.sexo = sexo;
 		this.especie = especie;
-		this.raca = raca;
+		
 	}
 	
 	public String getNomeA() {
@@ -116,20 +116,11 @@ public class Animal {
 		this.especie = expecie;
 	}
 	
-	public String getRaca() {
-		return raca;
-	}
 	
-	public void setRaca(String raca) {
-		this.raca = raca;
-	}
 	
-	public void setCli(Cliente cli) {
-		this.cli = cli;
-	}
-}
 
-
+public class Animal {
+	private String nome,anoNascimento, sexo, especie, 
 
 
 
@@ -252,24 +243,32 @@ public class Cliente {
 public void Aquático()
 
 
-public class Animal {
-	private String nome,anoNascimento, sexo, especie, raca;
-	private Cliente cli;
+
+public class aquático {
 	
+
+
+	}
+
+
 	public Animal(String nome, String anoNascimento, String sexo, String especie, String raca) {
 		this.nome = nome;
 		this.anoNascimento = anoNascimento;
 		this.sexo = sexo;
 		this.especie = especie;
-		this.raca = raca;
+		
+
+
+
 	}
-	
-	public String getNomeA() {
+	public String getnome() {
 		return nome;
-	}
 	
-	public void setNome(String nome) {
+
+
+  public void setSexo(String  nome) {
 		this.nome = nome;
+
 	}
 	
 	public String getAnoNascimento() {
@@ -296,20 +295,7 @@ public class Animal {
 		this.especie = expecie;
 	}
 	
-	public String getRaca() {
-		return raca;
-	}
 	
-	public void setRaca(String raca) {
-		this.raca = raca;
-	}
-	
-	public void setCli(Cliente cli) {
-		this.cli = cli;
-	}
-}
-
-
 
 
     }
@@ -394,8 +380,8 @@ fruit === fruitbear; // return true
 
 
 public class principal ()
-	private String nome,anoNascimento, sexo, especie, raca;
-	private Cliente cli;
+	private String nome,anoNascimento, sexo, especie, 
+	
 	
 	public Reinoteste(String nome aquático, String Carcharias taurus, fêmea, 7, água salgada, false;
 - Pygocentrus nattereri, macho, 3, água doce, true;, String Aereo , String especie, String raca) {
@@ -403,7 +389,7 @@ public class principal ()
 		this.anoNascimento = anoNascimento;
 		this.sexo = sexo;
 		this.especie = especie;
-		this.raca = raca;
+		
 	}
 
 	
@@ -439,19 +425,7 @@ public class principal ()
 		this.especie = expecie;
 	}
 	
-	public String getRaca() {
-		return raca;
-	}
 	
-	public void setRaca(String raca) {
-		this.raca = raca;
-	}
-	
-	public void setCli(Cliente cli) {
-		this.cli = cli;
-	}
-}
-
 
 
 
